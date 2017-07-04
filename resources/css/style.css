@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: gray;
+  opacity: 0.9;
+  border: 1px solid red;
+
+}
+
+header {
+  border: 1px solid red;
+}
+
+.mission {
+  border: 1px solid red;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text {
+  border: 1px solid red;
+  background-color: gray;
+  color: seashell;
+  opacity: 0.7;
+}
+
+.tea-of-the-month {
+  border: 1px solid red;
+}
+
+.tea-of-the-month img {
+  height: 200px;
+  width: 300px;
+}
+
+.locations, .contact, .copyright {
+  border: 1px solid red;
+}
