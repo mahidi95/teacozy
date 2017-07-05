@@ -65,14 +65,30 @@ nav a {
 }
 /* Tea of The Month div */
 .tea-of-the-month {
-  border: 1px solid red;
+  width: 1000px;
 }
 
 .tea-of-the-month img {
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
+.month-header-text {
+  text-align: center;
+}
+
+.month-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .locations, .contact, .copyright {
   border: 1px solid red;
 }
