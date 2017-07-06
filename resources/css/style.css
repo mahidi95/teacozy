@@ -89,6 +89,35 @@ nav a {
   flex-direction: column;
   align-items: center;
 }
-.locations, .contact, .copyright {
+/* Location div */
+.locations {
+  background-image: url(../images/locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locations-container {
+  display: flex;
+}
+
+.location-box {
+  width: 300px;
+  background-color: black;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 25.74px;
+}
+.locations, .contact, .copyright, .location-box {
   border: 1px solid red;
 }
+
+/* DOUBLE CHECK ALL MARGIN VALUES! */
