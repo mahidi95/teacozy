@@ -14,11 +14,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, p, ol, ul {
+h1, h2, h3, h4, p, ol, ul, span, section {
     margin: 0;
     padding: 0;
-}
-
-h1, h2, h3, h4 {
-    font-size: inherit;
 }
