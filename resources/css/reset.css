@@ -1,0 +1,24 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font: 22px/1 Helvetica, sans-serif;
+    font-weight: bold;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, p, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-size: inherit;
+}

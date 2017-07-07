@@ -1,123 +1,24 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  border: 1px solid red;
-}
-/* Header */
+/* Header and Navigation Bar */
 header {
-  display: flex;
-  border-bottom: 1px solid seashell;
-  align-items: center;
   height: 69px;
-  width: 100%;
+  border-bottom: 1px solid seashell;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
-.logo {
-  margin: 0 auto 0 10px;
-}
-
-.logo img {
+#logo {
   height: 50px;
-}
-
-nav {
-  margin-right: 10px;
+  margin-right: auto;
 }
 
 nav li {
-  list-style: none;
+  text-decoration: underline;
   display: inline-block;
-  padding: 0 10px;
 }
 
-nav a {
-  color: seashell;
-}
-/* Mission div */
-.mission {
-  background-image: url(../images/mission-background.jpg);
-  height: 700px;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+/* Turn on borders of everything - turn off at end */
 
-.mission-text {
-  background-color: black;
-  color: seashell;
-  text-align: center;
-}
-
-.mission-text h2 {
-  font-size: 33px;
-}
-
-.mission-text h2, h4 {
-  margin: 0;
-  padding: 10px;
-}
-/* Tea of The Month div */
-.tea-of-the-month {
-  width: 1000px;
-}
-
-.tea-of-the-month img {
-  height: 200px;
-  width: 300px;
-  margin: 10px;
-}
-
-.month-header-text {
-  text-align: center;
-}
-
-.month-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-/* Location div */
-.locations {
-  background-image: url(../images/locations-background.jpg);
-  height: 500px;
-  width: 1200px;
-  padding-top: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.locations-container {
-  display: flex;
-}
-
-.location-box {
-  width: 300px;
-  background-color: black;
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h3 {
-  font-size: 25.74px;
-}
-.locations, .contact, .copyright, .location-box {
+header {
   border: 1px solid red;
 }
-
-/* DOUBLE CHECK ALL MARGIN VALUES! */
