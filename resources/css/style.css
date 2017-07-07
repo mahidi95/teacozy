@@ -1,5 +1,5 @@
 /* Turn on borders of everything - turn off at end */
-header, .main-container, .mission, .mission h2, h4 {
+header, .main-container, .mission, .mission h2, .mission h4, .featured-menu, .featured-menu h2, .featured-menu h4 {
   border: 1px solid red;
 }
 /* Header and Navigation Bar */
@@ -19,6 +19,7 @@ header {
 nav li {
   text-decoration: underline;
   display: inline-block;
+  padding: 10px;
 }
 /* Main Content */
 
@@ -33,8 +34,38 @@ nav li {
   justify-content: center;
 }
 
-.mission h2, .mission h4 {
+.mission h2, .mission h4 { /* Combine later with similar lines */
   background-color: black;
   padding: 10px;
   text-align: center;
+}
+
+/* Featured Menu Section */
+
+.featured-menu {
+  width: 1000px;
+}
+
+.featured-menu h2, .featured-menu h4 { /* Combine later with similar lines */
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
 }
