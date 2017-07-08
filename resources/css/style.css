@@ -5,11 +5,13 @@ header, .main-container, .mission, .mission h2, .mission h4, .featured-menu, .fe
 /* Header and Navigation Bar */
 header {
   height: 69px;
+  width: 1243px;
   border-bottom: 1px solid seashell;
   background-color: black;
   padding: 0 10px;
   display: flex;
   align-items: center;
+  position: fixed;
 }
 
 #logo {
@@ -137,5 +139,5 @@ nav a {
 footer {
     padding-left: 20px;
     border: 1px solid red;
-    
+
 }
